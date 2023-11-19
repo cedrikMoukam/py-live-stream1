@@ -5,7 +5,7 @@ from flask import Flask, render_template, Response, stream_with_context, request
 video = cv2.VideoCapture(0)
 app = Flask('__name__')
 
-
+#function
 def video_stream():
     while True:
         ret, frame = video.read()
