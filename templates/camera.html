@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Live Stream from Pi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img {
+
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Camera Live Stream from Pi</h1>
+
+    <img id="bg" src="{{ url_for('video_feed') }}" style="width:88%;">
+
+</body>
+
+</html> 
